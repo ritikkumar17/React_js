@@ -1,5 +1,6 @@
 import Firstcomp, { SecondComp } from "./components/Firstcomp";
 import Jsxcomp from "./components/Jsxcomp";
+import Onclick from "./components/Onclick";
 // import assetsimage from "./assets/hero.png"
 // import { assetsimage } from '/';
 
@@ -9,12 +10,15 @@ function App() {
     {/* <img src="./public/favicon.svg" />
     <img src = {assetsimage} /> */}
       <h1>App component</h1>
-      
+
      {/* <Firstcomp/>
      <SecondComp/> */}
 
      {/* jsx component */}
-     <Jsxcomp/>
+     {/* <Jsxcomp/> */}
+
+    {/* onclick component */}
+     <Onclick/>
      
     </>
   );
