@@ -1,6 +1,7 @@
 import Firstcomp, { SecondComp } from "./components/Firstcomp";
 import Jsxcomp from "./components/Jsxcomp";
 import Onclick from "./components/Onclick";
+import Usestate from "./components/Usestate";
 // import assetsimage from "./assets/hero.png"
 // import { assetsimage } from '/';
 
@@ -18,7 +19,10 @@ function App() {
      {/* <Jsxcomp/> */}
 
     {/* onclick component */}
-     <Onclick/>
+     {/* <Onclick/> */}
+
+{/* usestate component */}
+     <Usestate/>
      
     </>
   );
