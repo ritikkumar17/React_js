@@ -3,7 +3,7 @@ import React from 'react'
 function Firstcomp() {
   return (
     <div>
-      <h1>1st component</h1>
+      <h1>this is 1st component</h1>
     </div>
   )
 }
