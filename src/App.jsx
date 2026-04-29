@@ -3,6 +3,7 @@ import Jsxcomp from "./components/Jsxcomp";
 import Onclick from "./components/Onclick";
 import Usestate from "./components/Usestate";
 import Checkbox from "./controlledcomponent/Checkbox";
+import Dropdown from "./controlledcomponent/Dropdown";
 import Onchange from "./controlledcomponent/Onchange";
 import Radio from "./controlledcomponent/Radio";
 import Parentcomp from "./propcomponent18/Parentcomp";
@@ -38,7 +39,10 @@ function App() {
   {/* <Checkbox/> */}
 
 {/* In radio component */}
-  <Radio/>
+  {/* <Radio/> */}
+
+{/* in dropdwon comp */}
+  <Dropdown/>
      
     </>
   );
