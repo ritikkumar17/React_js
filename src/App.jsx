@@ -4,6 +4,7 @@ import Onclick from "./components/Onclick";
 import Usestate from "./components/Usestate";
 import Checkbox from "./controlledcomponent/Checkbox";
 import Onchange from "./controlledcomponent/Onchange";
+import Radio from "./controlledcomponent/Radio";
 import Parentcomp from "./propcomponent18/Parentcomp";
 // import assetsimage from "./assets/hero.png"
 // import { assetsimage } from '/';
@@ -34,7 +35,10 @@ function App() {
   {/* <Onchange/> */}
 
 {/* handle checkbox */}
-  <Checkbox/>
+  {/* <Checkbox/> */}
+
+{/* In radio component */}
+  <Radio/>
      
     </>
   );
