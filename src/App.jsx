@@ -1,6 +1,7 @@
 import Firstcomp, { SecondComp } from "./components/Firstcomp";
 import Jsxcomp from "./components/Jsxcomp";
 import Onclick from "./components/Onclick";
+import Useeffect from "./components/Useeffect";
 import Usestate from "./components/Usestate";
 import Checkbox from "./controlledcomponent/Checkbox";
 import Dropdown from "./controlledcomponent/Dropdown";
@@ -42,7 +43,10 @@ function App() {
   {/* <Radio/> */}
 
 {/* in dropdwon comp */}
-  <Dropdown/>
+  {/* <Dropdown/> */}
+
+{/* useeffect component */}
+  <Useeffect/>
      
     </>
   );
