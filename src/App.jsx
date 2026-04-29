@@ -2,6 +2,7 @@ import Firstcomp, { SecondComp } from "./components/Firstcomp";
 import Jsxcomp from "./components/Jsxcomp";
 import Onclick from "./components/Onclick";
 import Usestate from "./components/Usestate";
+import Checkbox from "./controlledcomponent/Checkbox";
 import Onchange from "./controlledcomponent/Onchange";
 import Parentcomp from "./propcomponent18/Parentcomp";
 // import assetsimage from "./assets/hero.png"
@@ -30,7 +31,10 @@ function App() {
      {/* <Parentcomp/> */}
 
 {/* controlledcomponent 1st onchange */}
-  <Onchange/>
+  {/* <Onchange/> */}
+
+{/* handle checkbox */}
+  <Checkbox/>
      
     </>
   );
