@@ -1,4 +1,5 @@
 import Firstcomp, { SecondComp } from "./components/Firstcomp";
+import Parentref from "./components/forwardRef/Parentref";
 import Jsxcomp from "./components/Jsxcomp";
 import Onclick from "./components/Onclick";
 import Parent from "./components/pass_func_as_props/Parent";
@@ -55,7 +56,10 @@ function App() {
   {/* <Userefhook/> */}
 
 {/* In pass_func_as_props we pass parentfunc in childfunc */}
-<Parent/>
+{/* <Parent/> */}
+
+{/* In forwardRef we cover that topic */}
+<Parentref/>
      
     </>
   );
