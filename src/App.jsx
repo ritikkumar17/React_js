@@ -12,6 +12,7 @@ import Dropdown from "./controlledcomponent/Dropdown";
 import Onchange from "./controlledcomponent/Onchange";
 import Radio from "./controlledcomponent/Radio";
  import Parentcomp from "./propcomponent18/Parentcomp";
+ import UseTransitionHook from "./components/useTransitionHook";
 
 // import assetsimage from "./assets/hero.png"
 // import { assetsimage } from '/';
@@ -63,7 +64,11 @@ function App() {
 {/* <Parentref/> */}
 
  {/* UseFormStatus hook perform */}
-<UseFormStatus/>
+{/* <UseFormStatus/> */}
+
+
+{/* perform  usetransition hook */}
+<UseTransitionHook/>
      
     </>
   );
