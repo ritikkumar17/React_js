@@ -16,6 +16,7 @@ import Radio from "./controlledcomponent/Radio";
 import DerivedState from "./components/DerivedState";
 import UseActionState from "./components/UseActionState";
 import UseId from "./components/UseId";
+import Memoparent from "./components/memocomponent/Memoparent";
 
 // import assetsimage from "./assets/hero.png"
 // import { assetsimage } from '/';
@@ -81,7 +82,10 @@ function App() {
 {/* <UseActionState/> */}
 
 {/* useId hook perform */}
-<UseId/>
+{/* <UseId/> */}
+
+{/* React.memo perform */}
+<Memoparent/>
      
     </>
   );
