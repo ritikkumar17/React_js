@@ -18,6 +18,7 @@ import UseActionState from "./components/UseActionState";
 import UseId from "./components/UseId";
 import Memoparent from "./components/memocomponent/Memoparent";
 import UseMemo from "./components/memocomponent/UseMemo";
+import Parentcallback from "./components/usecallback_hook/Parentcallback";
 
 // import assetsimage from "./assets/hero.png"
 // import { assetsimage } from '/';
@@ -89,7 +90,11 @@ function App() {
 {/* <Memoparent/> */}
 
 {/* useMemo hook performed */}
-<UseMemo/>
+{/* <UseMemo/> */}
+
+
+{/* In usecallback_hook  we perform callbackhook */}
+<Parentcallback/>
      
     </>
   );
