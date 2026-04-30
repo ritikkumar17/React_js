@@ -14,6 +14,7 @@ import Radio from "./controlledcomponent/Radio";
  import Parentcomp from "./propcomponent18/Parentcomp";
  import UseTransitionHook from "./components/useTransitionHook";
 import DerivedState from "./components/DerivedState";
+import UseActionState from "./components/UseActionState";
 
 // import assetsimage from "./assets/hero.png"
 // import { assetsimage } from '/';
@@ -72,7 +73,11 @@ function App() {
 {/* <UseTransitionHook/> */}
 
 {/* Derived state perform */}
-<DerivedState/>
+{/* <DerivedState/> */}
+
+
+{/* Perform useactionstate hook */}
+<UseActionState/>
      
     </>
   );
