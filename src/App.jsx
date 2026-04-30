@@ -17,6 +17,7 @@ import DerivedState from "./components/DerivedState";
 import UseActionState from "./components/UseActionState";
 import UseId from "./components/UseId";
 import Memoparent from "./components/memocomponent/Memoparent";
+import UseMemo from "./components/memocomponent/UseMemo";
 
 // import assetsimage from "./assets/hero.png"
 // import { assetsimage } from '/';
@@ -85,7 +86,10 @@ function App() {
 {/* <UseId/> */}
 
 {/* React.memo perform */}
-<Memoparent/>
+{/* <Memoparent/> */}
+
+{/* useMemo hook performed */}
+<UseMemo/>
      
     </>
   );
