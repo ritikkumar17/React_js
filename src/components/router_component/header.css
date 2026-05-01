@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    background-color: #e1caca;
+    padding: 10px;
+}
+
+.header ul{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    width: 200px;
+    list-style: none;
+    gap: 50px;
+}
+
+.header link{
+    text-decoration: none;
+}

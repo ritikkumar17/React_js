@@ -19,6 +19,8 @@ import UseId from "./components/UseId";
 import Memoparent from "./components/memocomponent/Memoparent";
 import UseMemo from "./components/memocomponent/UseMemo";
 import Parentcallback from "./components/usecallback_hook/Parentcallback";
+import {BrowserRouter} from 'react-router'
+import Router from "./components/router_component/Router"
 
 // import assetsimage from "./assets/hero.png"
 // import { assetsimage } from '/';
@@ -94,7 +96,12 @@ function App() {
 
 
 {/* In usecallback_hook  we perform callbackhook */}
-<Parentcallback/>
+{/* <Parentcallback/> */}
+
+<BrowserRouter>
+<Router/>
+</BrowserRouter>
+
      
     </>
   );
